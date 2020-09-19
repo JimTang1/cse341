@@ -1,0 +1,36 @@
+
+// JavaScript source code
+<!DOCTYPE html>
+<html>
+<head>
+  <% include ../../includes/header.ejs %>
+</head>
+
+<body>
+  <% include ../../includes/nav.ejs %>
+<div class="jumbotron text-center">
+  <div class="container">
+    <h1><%= title %></h1>
+    <p>here is p01</p>
+  </div>
+</div>
+
+<form action="/pr01/submit" method="POST">
+
+   <p>please enter your favorite food: </p>
+   <input type="text" name="newText1">
+   
+   <p>please enter your favorite person: </p>
+   <input type="text" name="newText2">
+
+   <br>
+   <br>
+   <button type="submit">Submit</button>
+</form>
+<div class="container">
+  
+</div>
+
+
+</body>
+</html>
