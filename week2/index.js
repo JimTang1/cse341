@@ -30,6 +30,6 @@ app.use(displayRoutes);
 // app.use('/', adminData.routes);
 // app.use(displayRoutes);
 
-
+ 
 
 app.listen(5000);
