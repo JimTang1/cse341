@@ -1,0 +1,19 @@
+<%- include('includes/header.ejs') %>
+    <link rel ="stylesheet" href = "/css/form.css">
+    <link rel ="stylesheet" href = "/css/product.css">
+
+<body>
+    <%- include('includes/navigation.ejs') %>
+    <main>
+        <form class = "book-form" action = "book" method = "POST">
+            <div class = "form-control">
+                <lable for = "title">Book Title:</lable> <br>
+                <input type = "text" name = "title" id ="title"><br>
+                <lable for ="summary">Summary: </lable>
+                <textarea id = "area" name = "area" rows="4" cols="50"></textarea>
+            </div>
+            <button class = "btn" types = "submit">Add Book</button>
+        </form>
+    </main>
+
+<%- include('includes/footer.ejs') %>
