@@ -1,4 +1,4 @@
-const Book = require('../models/Book');
+const Book = require('../models/book');
 
 exports.getAddBook = (req,res,next)=>{
     //res.send('this is book page');
