@@ -1,10 +1,11 @@
 const express = require('express');
-
 const path = require('path');
-
 const app = express();
-
 const bodyParser = require('body-parser');
+const errorController = require('./controllers/error');
+
+
+
 
 app.use(bodyParser.urlencoded({extended: false}));
 app.use(express.static(path.join(__dirname, 'public')));
@@ -12,11 +13,13 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.set('view engine', 'ejs');
 app.set('views', 'views');
 
-const bookData = require('./routes/book');
-const displayRoutes = require('./routes/display');
-const car
 
-app.use(bookData.routes); 
+
+
+const bookRoutes = require('./routes/book');
+const displayRoutes = require('./routes/display');
+
+app.use(bookRoutes); 
 app.use(displayRoutes);
 
 
@@ -31,6 +34,6 @@ app.use(displayRoutes);
 // app.use('/', adminData.routes);
 // app.use(displayRoutes);
 
- 
+app.use(errorController.get404);
 
 app.listen(5000);

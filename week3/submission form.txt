@@ -1,0 +1,33 @@
+After completing the assignment, be sure to push to Github and Heroku.
+Please answer the questions in this text file and submit it to I-Learn.
+
+1. Copy and paste the URL for your web application (e.g., Heroku):
+https://dashboard.heroku.com/apps/jimtang-cd341/deploy/github
+I had a problem pushing on Heroku so I link to my GitHub.
+
+2. Copy and paste the URL for your source code repository (e.g., GitHub):
+https://github.com/JimTang1/cse341/tree/master/week2
+
+3. Briefly list and describe the elements of the application that are functioning. 
+two ejs, to show the page of the website. the add-book page is to let the user add the book. "display" page shows the input information.
+  2 routers that are handling the link and also the array of the booklist.
+
+4. Briefly describe any pieces of the assignment that are not yet working correctly.
+No
+
+5. Briefly describe the "coolest" thing you learned while completing this assignment.
+I understand the backend coding more and clearly. now I can create a very basic web page without looking at the example or video.
+
+6. If you could change this assignment to be more effective or helpful, what would you change?
+No.
+
+7. Please select the category you feel best describes your assignment:
+   1 - Some attempt was made
+   2 - Developing, but significantly deficient
+   3 - Slightly deficient, but still mostly adequate
+   4 - Meets requirements
+   5 - Shows creativity and excels above and beyond requirements
+
+8. Provide a brief justification (1-2 sentences) for selecting that category.
+5 - Shows creativity and excels above and beyond requirements
+I understand most of the product and how it process.

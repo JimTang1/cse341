@@ -22,5 +22,5 @@ router.post('/submit', (req, res, next) => {
         newText2: req.body.newText2,
     });
 });
-.
+
 module.exports = router;
